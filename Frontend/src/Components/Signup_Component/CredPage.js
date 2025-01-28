@@ -179,7 +179,7 @@ function CredPage(props) {
                             <div>
                                 <div className="form-group row">
                                     <div className="col-sm-2"></div>
-                                    <label className="col-sm-2 col-form-label">User ID</label>
+                                    <label className="col-sm-2 col-form-label">Email-ID</label>
                                     <div className="col-sm-5">
                                         <input type="text" className="form-control" value={props.cred.userid} onChange={useridchange}/>
                                     </div>

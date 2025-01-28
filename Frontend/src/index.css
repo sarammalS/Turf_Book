@@ -5,7 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #24823b;
+    background-image: url(https://t3.ftcdn.net/jpg/02/07/83/06/240_F_207830639_MNp0dvedLAAR4oYG5sV98nDslgQyn6Pz.jpg);
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

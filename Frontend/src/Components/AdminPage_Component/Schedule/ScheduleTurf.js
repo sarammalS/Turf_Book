@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { BASE_URL } from '../../../Url';
+import './Scheduleturf.css';
 
 function ScheduleTurf(props) {
     const [availstyle]=useState({width:"50px",height:"20px",backgroundColor:"green",textAlign:'center',color:'white'});

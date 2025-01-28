@@ -1,0 +1,14 @@
+{
+  "name": "turfers",
+  "version": "1.0.0",
+  "description": "The Software system is a turf management system where respective turfs can be managed by the owners. Also,it is a turf booking system where turf slots can be booked by the users depending upon their preference and availability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "paypal-rest-sdk": "^1.8.1"
+  }
+}

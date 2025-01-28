@@ -12,7 +12,21 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.navbar-inverse {
+  background-color: #189651;
+  border-color: #080808;
+}
 
+
+.homedtls{
+  color:#189651
+}
+.navbar {
+  position: relative;
+  min-height: 60px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +42,23 @@
   color: #61dafb;
 }
 
-.backcolor
-{
+.backcolor {
   min-height: 100vh;
-  background-color:silver;
+  /* background-color: silver; */
+
+  background-image: url(https://wallpapercave.com/wp/caRP9wM.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+
 }
+div#root {
+  background-image: url(https://t3.ftcdn.net/jpg/06/84/33/54/360_F_684335404_8gi7eRehGnUHddPOEjOvfq6lbwE7piHW.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+}
+
+
 
 .userviewcss
 {
@@ -112,17 +138,7 @@
 
 .homedtls
 {
-  float:left;
-  padding:20px;
-  border:1px grey solid;
-  width:71%;
-  height:400px;
-  margin-right:4%;
-  background-color:#E6E6FA;
-  box-shadow:inset 3px 3px 2px grey,
-              5px 4px 2px grey ;
-  text-align:center;
-  vertical-align: middle;            
+  text-align: center;     
 }
 
 .clear1

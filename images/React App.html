@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://localhost:3000/admin -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js.download"></script><style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0U7YUFDVztBQUNiIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XHJcbiAgbWFyZ2luOiAwO1xyXG4gIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsICdSb2JvdG8nLCAnT3h5Z2VuJyxcclxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcclxuICAgIHNhbnMtc2VyaWY7XHJcbiAgLXdlYmtpdC1mb250LXNtb290aGluZzogYW50aWFsaWFzZWQ7XHJcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcclxufVxyXG5cclxuY29kZSB7XHJcbiAgZm9udC1mYW1pbHk6IHNvdXJjZS1jb2RlLXBybywgTWVubG8sIE1vbmFjbywgQ29uc29sYXMsICdDb3VyaWVyIE5ldycsXHJcbiAgICBtb25vc3BhY2U7XHJcbn1cclxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.backcolor
+{
+  min-height: 100vh;
+  background-color:silver;
+}
+
+.userviewcss
+{
+  background-color:#FBFCFC;
+  width:40%;
+  margin-left:30%;
+  margin-right:30%;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  opacity:0.9;
+  border-radius:15px;
+  box-shadow: 5px 4px 2px black ;
+}
+
+.clear1
+{
+  clear:both;
+}
+.out
+{
+  float:left;
+  width:19%;
+  margin-right:5%;
+  margin-left:1%;
+}
+.vertical
+{
+  float:left;
+  width:100%;
+  box-shadow:inset 8px 8px 10px black,
+              8px 8px 2px black ;
+}
+.vertical ul
+{
+  list-style:none;
+  padding:5%;
+  margin:0px;
+}
+
+.vertical ul li a
+{
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:20px;
+  margin-bottom:20px;
+  vertical-align: middle;
+  text-align:center;
+  padding:12px;
+  box-shadow:inset 5px 5px 10px black,
+              5px 4px 2px black ;
+  color:white;
+  background-color:grey;
+  text-decoration:none;
+  display:block;
+  border:1px black solid;
+}
+
+.vertical ul li a:hover
+{
+  background-color:white;
+  color:black;
+}
+
+.infodtls
+{
+  float:left;
+  padding:20px;
+  border:1px grey solid;
+  width:71%;
+  margin-right:4%;
+  background-color:#E6E6FA;
+  box-shadow:inset 3px 3px 2px grey,
+              5px 4px 2px grey ;
+}
+
+.homedtls
+{
+  float:left;
+  padding:20px;
+  border:1px grey solid;
+  width:71%;
+  height:400px;
+  margin-right:4%;
+  background-color:#E6E6FA;
+  box-shadow:inset 3px 3px 2px grey,
+              5px 4px 2px grey ;
+  text-align:center;
+  vertical-align: middle;            
+}
+
+.clear1
+{
+  clear:both;
+}
+
+.clear2
+{
+  clear:both;
+  border-bottom:1px white solid;
+}
+
+.homebutton
+{
+  background-color:black;
+  color:white;
+}
+
+.bookdtls1
+{
+  float:left;
+  width:15%;
+  margin-top:10px;
+  padding-left:10px;
+}
+
+.bookdtls2
+{
+  float:left;
+  width:70%;
+  text-align:center;
+}
+
+.bookdtls3
+{
+  float:left;
+  width:15%;
+  margin-top:10px;
+  text-align:center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9BcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsY0FBYztFQUNkLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFO0lBQ0UsNENBQTRDO0VBQzlDO0FBQ0Y7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsaUJBQWlCO0VBQ2pCLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsbUJBQW1CO0VBQ25CLHVCQUF1QjtFQUN2Qiw2QkFBNkI7RUFDN0IsWUFBWTtBQUNkOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxpQkFBaUI7RUFDakIsdUJBQXVCO0FBQ3pCOztBQUVBOztFQUVFLHdCQUF3QjtFQUN4QixTQUFTO0VBQ1QsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixpQkFBaUI7RUFDakIsZ0JBQWdCO0VBQ2hCLG1CQUFtQjtFQUNuQixXQUFXO0VBQ1gsa0JBQWtCO0VBQ2xCLDhCQUE4QjtBQUNoQzs7QUFFQTs7RUFFRSxVQUFVO0FBQ1o7QUFDQTs7RUFFRSxVQUFVO0VBQ1YsU0FBUztFQUNULGVBQWU7RUFDZixjQUFjO0FBQ2hCO0FBQ0E7O0VBRUUsVUFBVTtFQUNWLFVBQVU7RUFDVjtnQ0FDOEI7QUFDaEM7QUFDQTs7RUFFRSxlQUFlO0VBQ2YsVUFBVTtFQUNWLFVBQVU7QUFDWjs7QUFFQTs7RUFFRSxTQUFTO0VBQ1QsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixlQUFlO0VBQ2Ysa0JBQWtCO0VBQ2xCLHNCQUFzQjtFQUN0QixpQkFBaUI7RUFDakIsWUFBWTtFQUNaO2dDQUM4QjtFQUM5QixXQUFXO0VBQ1gscUJBQXFCO0VBQ3JCLG9CQUFvQjtFQUNwQixhQUFhO0VBQ2Isc0JBQXNCO0FBQ3hCOztBQUVBOztFQUVFLHNCQUFzQjtFQUN0QixXQUFXO0FBQ2I7O0FBRUE7O0VBRUUsVUFBVTtFQUNWLFlBQVk7RUFDWixxQkFBcUI7RUFDckIsU0FBUztFQUNULGVBQWU7RUFDZix3QkFBd0I7RUFDeEI7K0JBQzZCO0FBQy9COztBQUVBOztFQUVFLFVBQVU7RUFDVixZQUFZO0VBQ1oscUJBQXFCO0VBQ3JCLFNBQVM7RUFDVCxZQUFZO0VBQ1osZUFBZTtFQUNmLHdCQUF3QjtFQUN4QjsrQkFDNkI7RUFDN0IsaUJBQWlCO0VBQ2pCLHNCQUFzQjtBQUN4Qjs7QUFFQTs7RUFFRSxVQUFVO0FBQ1o7O0FBRUE7O0VBRUUsVUFBVTtFQUNWLDZCQUE2QjtBQUMvQjs7QUFFQTs7RUFFRSxzQkFBc0I7RUFDdEIsV0FBVztBQUNiOztBQUVBOztFQUVFLFVBQVU7RUFDVixTQUFTO0VBQ1QsZUFBZTtFQUNmLGlCQUFpQjtBQUNuQjs7QUFFQTs7RUFFRSxVQUFVO0VBQ1YsU0FBUztFQUNULGlCQUFpQjtBQUNuQjs7QUFFQTs7RUFFRSxVQUFVO0VBQ1YsU0FBUztFQUNULGVBQWU7RUFDZixpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRTtJQUNFLHVCQUF1QjtFQUN6QjtFQUNBO0lBQ0UseUJBQXlCO0VBQzNCO0FBQ0YiLCJzb3VyY2VzQ29udGVudCI6WyIuQXBwIHtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5BcHAtbG9nbyB7XHJcbiAgaGVpZ2h0OiA0MHZtaW47XHJcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XHJcbn1cclxuXHJcbkBtZWRpYSAocHJlZmVycy1yZWR1Y2VkLW1vdGlvbjogbm8tcHJlZmVyZW5jZSkge1xyXG4gIC5BcHAtbG9nbyB7XHJcbiAgICBhbmltYXRpb246IEFwcC1sb2dvLXNwaW4gaW5maW5pdGUgMjBzIGxpbmVhcjtcclxuICB9XHJcbn1cclxuXHJcbi5BcHAtaGVhZGVyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjgyYzM0O1xyXG4gIG1pbi1oZWlnaHQ6IDEwMHZoO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIGZvbnQtc2l6ZTogY2FsYygxMHB4ICsgMnZtaW4pO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxufVxyXG5cclxuLkFwcC1saW5rIHtcclxuICBjb2xvcjogIzYxZGFmYjtcclxufVxyXG5cclxuLmJhY2tjb2xvclxyXG57XHJcbiAgbWluLWhlaWdodDogMTAwdmg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpzaWx2ZXI7XHJcbn1cclxuXHJcbi51c2Vydmlld2Nzc1xyXG57XHJcbiAgYmFja2dyb3VuZC1jb2xvcjojRkJGQ0ZDO1xyXG4gIHdpZHRoOjQwJTtcclxuICBtYXJnaW4tbGVmdDozMCU7XHJcbiAgbWFyZ2luLXJpZ2h0OjMwJTtcclxuICB0ZXh0LWFsaWduOmNlbnRlcjtcclxuICBwYWRkaW5nLXRvcDoxMHB4O1xyXG4gIHBhZGRpbmctYm90dG9tOjEwcHg7XHJcbiAgb3BhY2l0eTowLjk7XHJcbiAgYm9yZGVyLXJhZGl1czoxNXB4O1xyXG4gIGJveC1zaGFkb3c6IDVweCA0cHggMnB4IGJsYWNrIDtcclxufVxyXG5cclxuLmNsZWFyMVxyXG57XHJcbiAgY2xlYXI6Ym90aDtcclxufVxyXG4ub3V0XHJcbntcclxuICBmbG9hdDpsZWZ0O1xyXG4gIHdpZHRoOjE5JTtcclxuICBtYXJnaW4tcmlnaHQ6NSU7XHJcbiAgbWFyZ2luLWxlZnQ6MSU7XHJcbn1cclxuLnZlcnRpY2FsXHJcbntcclxuICBmbG9hdDpsZWZ0O1xyXG4gIHdpZHRoOjEwMCU7XHJcbiAgYm94LXNoYWRvdzppbnNldCA4cHggOHB4IDEwcHggYmxhY2ssXHJcbiAgICAgICAgICAgICAgOHB4IDhweCAycHggYmxhY2sgO1xyXG59XHJcbi52ZXJ0aWNhbCB1bFxyXG57XHJcbiAgbGlzdC1zdHlsZTpub25lO1xyXG4gIHBhZGRpbmc6NSU7XHJcbiAgbWFyZ2luOjBweDtcclxufVxyXG5cclxuLnZlcnRpY2FsIHVsIGxpIGFcclxue1xyXG4gIHdpZHRoOjgwJTtcclxuICBtYXJnaW4tbGVmdDoxMCU7XHJcbiAgbWFyZ2luLXJpZ2h0OjEwJTtcclxuICBtYXJnaW4tdG9wOjIwcHg7XHJcbiAgbWFyZ2luLWJvdHRvbToyMHB4O1xyXG4gIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbiAgdGV4dC1hbGlnbjpjZW50ZXI7XHJcbiAgcGFkZGluZzoxMnB4O1xyXG4gIGJveC1zaGFkb3c6aW5zZXQgNXB4IDVweCAxMHB4IGJsYWNrLFxyXG4gICAgICAgICAgICAgIDVweCA0cHggMnB4IGJsYWNrIDtcclxuICBjb2xvcjp3aGl0ZTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOmdyZXk7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOm5vbmU7XHJcbiAgZGlzcGxheTpibG9jaztcclxuICBib3JkZXI6MXB4IGJsYWNrIHNvbGlkO1xyXG59XHJcblxyXG4udmVydGljYWwgdWwgbGkgYTpob3ZlclxyXG57XHJcbiAgYmFja2dyb3VuZC1jb2xvcjp3aGl0ZTtcclxuICBjb2xvcjpibGFjaztcclxufVxyXG5cclxuLmluZm9kdGxzXHJcbntcclxuICBmbG9hdDpsZWZ0O1xyXG4gIHBhZGRpbmc6MjBweDtcclxuICBib3JkZXI6MXB4IGdyZXkgc29saWQ7XHJcbiAgd2lkdGg6NzElO1xyXG4gIG1hcmdpbi1yaWdodDo0JTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiNFNkU2RkE7XHJcbiAgYm94LXNoYWRvdzppbnNldCAzcHggM3B4IDJweCBncmV5LFxyXG4gICAgICAgICAgICAgIDVweCA0cHggMnB4IGdyZXkgO1xyXG59XHJcblxyXG4uaG9tZWR0bHNcclxue1xyXG4gIGZsb2F0OmxlZnQ7XHJcbiAgcGFkZGluZzoyMHB4O1xyXG4gIGJvcmRlcjoxcHggZ3JleSBzb2xpZDtcclxuICB3aWR0aDo3MSU7XHJcbiAgaGVpZ2h0OjQwMHB4O1xyXG4gIG1hcmdpbi1yaWdodDo0JTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiNFNkU2RkE7XHJcbiAgYm94LXNoYWRvdzppbnNldCAzcHggM3B4IDJweCBncmV5LFxyXG4gICAgICAgICAgICAgIDVweCA0cHggMnB4IGdyZXkgO1xyXG4gIHRleHQtYWxpZ246Y2VudGVyO1xyXG4gIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7ICAgICAgICAgICAgXHJcbn1cclxuXHJcbi5jbGVhcjFcclxue1xyXG4gIGNsZWFyOmJvdGg7XHJcbn1cclxuXHJcbi5jbGVhcjJcclxue1xyXG4gIGNsZWFyOmJvdGg7XHJcbiAgYm9yZGVyLWJvdHRvbToxcHggd2hpdGUgc29saWQ7XHJcbn1cclxuXHJcbi5ob21lYnV0dG9uXHJcbntcclxuICBiYWNrZ3JvdW5kLWNvbG9yOmJsYWNrO1xyXG4gIGNvbG9yOndoaXRlO1xyXG59XHJcblxyXG4uYm9va2R0bHMxXHJcbntcclxuICBmbG9hdDpsZWZ0O1xyXG4gIHdpZHRoOjE1JTtcclxuICBtYXJnaW4tdG9wOjEwcHg7XHJcbiAgcGFkZGluZy1sZWZ0OjEwcHg7XHJcbn1cclxuXHJcbi5ib29rZHRsczJcclxue1xyXG4gIGZsb2F0OmxlZnQ7XHJcbiAgd2lkdGg6NzAlO1xyXG4gIHRleHQtYWxpZ246Y2VudGVyO1xyXG59XHJcblxyXG4uYm9va2R0bHMzXHJcbntcclxuICBmbG9hdDpsZWZ0O1xyXG4gIHdpZHRoOjE1JTtcclxuICBtYXJnaW4tdG9wOjEwcHg7XHJcbiAgdGV4dC1hbGlnbjpjZW50ZXI7XHJcbn1cclxuXHJcbkBrZXlmcmFtZXMgQXBwLWxvZ28tc3BpbiB7XHJcbiAgZnJvbSB7XHJcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcclxuICB9XHJcbiAgdG8ge1xyXG4gICAgdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTtcclxuICB9XHJcbn1cclxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.infodtls {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-cell {
+    padding: 5px;
+}
+
+.availstyle {
+    width: 60px;
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.notavailstyle {
+    width: 60px;
+    height: 30px;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-right: 10px;
+}
+
+.form-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnRzL0FkbWluUGFnZV9Db21wb25lbnQvU2NoZWR1bGUvU2NoZWR1bGV0dXJmLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYix5QkFBeUI7SUFDekIsbUJBQW1CO0lBQ25CLHFDQUFxQztBQUN6Qzs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLFdBQVc7SUFDWCx5QkFBeUI7QUFDN0I7O0FBRUE7SUFDSSxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7SUFDWix5QkFBeUI7SUFDekIsWUFBWTtJQUNaLGtCQUFrQjtJQUNsQixtQkFBbUI7SUFDbkIsZUFBZTtJQUNmLGVBQWU7SUFDZixXQUFXO0FBQ2Y7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsWUFBWTtJQUNaLHlCQUF5QjtJQUN6QixZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLG1CQUFtQjtJQUNuQixlQUFlO0lBQ2YsZUFBZTtJQUNmLFdBQVc7QUFDZjs7QUFFQTtJQUNJLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGFBQWE7SUFDYixrQkFBa0I7SUFDbEIsc0JBQXNCO0FBQzFCOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLHlCQUF5QjtJQUN6QixZQUFZO0lBQ1osWUFBWTtJQUNaLGtCQUFrQjtJQUNsQixlQUFlO0FBQ25COztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCIiwic291cmNlc0NvbnRlbnQiOlsiLmluZm9kdGxzIHtcclxuICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjRmNGY0O1xyXG4gICAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICAgIGJveC1zaGFkb3c6IDAgNHB4IDhweCByZ2JhKDAsMCwwLDAuMSk7XHJcbn1cclxuXHJcbi50YWJsZS1jb250YWluZXIge1xyXG4gICAgb3ZlcmZsb3cteDogYXV0bztcclxufVxyXG5cclxuLnNjaGVkdWxlLXRhYmxlIHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcclxufVxyXG5cclxuLnNjaGVkdWxlLWNlbGwge1xyXG4gICAgcGFkZGluZzogNXB4O1xyXG59XHJcblxyXG4uYXZhaWxzdHlsZSB7XHJcbiAgICB3aWR0aDogNjBweDtcclxuICAgIGhlaWdodDogMzBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICM0Q0FGNTA7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgbWFyZ2luOiA1cHg7XHJcbn1cclxuXHJcbi5ub3RhdmFpbHN0eWxlIHtcclxuICAgIHdpZHRoOiA2MHB4O1xyXG4gICAgaGVpZ2h0OiAzMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2Y0NDMzNjtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICBmb250LXNpemU6IDE0cHg7XHJcbiAgICBtYXJnaW46IDVweDtcclxufVxyXG5cclxuLmZvcm0tZ3JvdXAge1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG5cclxuLmZvcm0tZ3JvdXAgbGFiZWwge1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xyXG59XHJcblxyXG4uZm9ybS1ncm91cCBpbnB1dCB7XHJcbiAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2RkZDtcclxufVxyXG5cclxuLmJ0bi1wcmltYXJ5IHtcclxuICAgIHBhZGRpbmc6IDEwcHggMjBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDdiZmY7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgICBib3JkZXI6IG5vbmU7XHJcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuXHJcbi5idG4tcHJpbWFyeTpob3ZlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA1NmIzO1xyXG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body class="">
+    <script src="./React App_files/jquery-1.12.0.min.js.download"></script>
+    <script src="./React App_files/jquery-migrate-1.2.1.min.js.download"></script>
+    <script src="./React App_files/bootstrap.min.js.download"></script>
+    <script src="./React App_files/bootstrap.bundle.min.js.download" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./React App_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./React App_files/font-awesome.min.css">  <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="backcolor"><button type="button" id="alertboxhit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="display: none;">AlertBox</button><div id="myModal" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h4 class="modal-title" style="text-align: center;"></h4></div><div class="modal-body"><h4 style="text-align: center;"></h4></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div><nav class="navbar navbar-inverse"><div class="container-fluid"><div class="navbar-header"><a class="navbar-brand">Turfers</a></div><ul class="nav navbar-nav navbar-right"><li><a><span class="glyphicon glyphicon-user"></span> Welcome, geetha@gmail.com</a></li><li><a href="http://localhost:3000/"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li></ul></div></nav><div class="out"><div class="vertical"><ul><li><a>INFORMATION</a></li><li><a>SCHEDULE</a></li><li><a>HISTORY</a></li></ul></div></div><div class="infodtls"><div><button type="button" class="btn">Basic Details</button> <button type="button" class="btn">Slot Timings</button></div><br><div><div class="form-group"><label for="turfname">Turf Name:</label><input type="text" class="form-control" id="turfname" value="turf1"></div><div class="form-group"><label for="turfloc">Turf Location:</label><input type="text" class="form-control" id="turfloc" value="coimbatore"></div><div class="form-group"><label for="tpwol">Turf Price (Without Lights):</label><input type="text" class="form-control" id="tpwol" value="1400"></div><div class="form-group"><label for="tpwl">Turf Price (With Lights):</label><input type="text" class="form-control" id="tpwl" value="1600"></div><div class="form-group form-inline"><label>Turf Timing (Without Lights): </label> <select style="width: 20%;"><option value=""></option><option value="00:00">00:00</option><option value="01:00">01:00</option><option value="02:00">02:00</option><option value="03:00">03:00</option><option value="04:00">04:00</option><option value="05:00">05:00</option><option value="06:00">06:00</option><option value="07:00">07:00</option><option value="08:00">08:00</option><option value="09:00">09:00</option><option value="10:00">10:00</option><option value="11:00">11:00</option><option value="12:00">12:00</option><option value="13:00">13:00</option><option value="14:00">14:00</option><option value="15:00">15:00</option><option value="16:00">16:00</option><option value="17:00">17:00</option><option value="18:00">18:00</option><option value="19:00">19:00</option><option value="20:00">20:00</option><option value="21:00">21:00</option><option value="22:00">22:00</option><option value="23:00">23:00</option></select> To <select style="width: 20%;"><option value=""></option><option value="00:00">00:00</option><option value="01:00">01:00</option><option value="02:00">02:00</option><option value="03:00">03:00</option><option value="04:00">04:00</option><option value="05:00">05:00</option><option value="06:00">06:00</option><option value="07:00">07:00</option><option value="08:00">08:00</option><option value="09:00">09:00</option><option value="10:00">10:00</option><option value="11:00">11:00</option><option value="12:00">12:00</option><option value="13:00">13:00</option><option value="14:00">14:00</option><option value="15:00">15:00</option><option value="16:00">16:00</option><option value="17:00">17:00</option><option value="18:00">18:00</option><option value="19:00">19:00</option><option value="20:00">20:00</option><option value="21:00">21:00</option><option value="22:00">22:00</option><option value="23:00">23:00</option></select></div></div><br><div style="text-align: right;"><button type="button" class="btn">Next</button></div></div><h1 class="clear1">&nbsp;</h1></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>
